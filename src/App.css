@@ -1,38 +1,816 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.Navbar{
+  /* background-color: #af7777; */
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.Nav_Route_link{
+  /* background-color: #374ee3; */
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.find{
+  text-decoration: none;
+  color: black;
+}.find:hover{
+  color: black;
+}
+.nnn{
+  color: black;
+  text-decoration: none;
+  width: 50px;
+  
+}.nnn:hover{
+  color: black;
+}
+.all_nav_boot{
+  /* background-color: #7f77af; */
+  display: flex;
+  /* width: 300px; */
+}
+.nav_button{
+  height: 31px;
+  color: gray;
+  border: 1px solid rgb(190, 188, 188);
+  font-size: 10px;
+  width: 100px;
+  border-radius: 7%;
+}
+.nav_button:hover{
+  color: aqua;
+  border: 1px solid aqua;
+}
+.practo_logo{
+  width: 100px;
+  height: 30px;
+  background-color: aliceblue;
+  /* display: flex; */
+  /* align-items: center; */
+}
+/* =================================================Navbar======================================================== */
+
+.search_location{
+  width: 250px;
+  height: 34px;
+}
+.search_location_doctors{
+  width: 450px;
+  height: 34px;
+}
+.first_doc_img{
+  width :100% ;
+   height:350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.input_img{
+  /* border: 1px solid black; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.input_only{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  /* background-color: aqua; */
+  height: 590px;
+  width: 80%;
+  justify-content: space-around;
+
+}
+.card_doc{
+  /* border: 1px solid black; */
+  width: 200px;
+  border-radius: 15px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  /* padding: 10px; */
+  -webkit-box-shadow: 2px 6px 38px -8px rgba(112,112,112,1);
+  -moz-box-shadow: 2px 6px 38px -8px rgba(112,112,112,1);
+  box-shadow: 2px 6px 38px -8px rgba(112,112,112,1);
+
+}
+.card_img{
+  /* border: 1px solid black; */
+  background-color: #AFCFED;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+}
+.card_img_sec{
+  /* border: 1px solid black; */
+  background-color: #98CBD6;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+}
+.card_b_img{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card_c_img{
+  color: gray;
+  font-size: 14px;
+}
+.card_p{
+  /* background-color: aqua; */
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.all_card_doc{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.all_in_card_doc{
+  /* background-color: blue; */
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+
+}
+.con_{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+}
+.con_txt{
+  display: flex;
+  flex-direction: column;
+}
+.con_txt_but{
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+}
+.in_con_txt_but{
+  /* background-color: blue; */
+  width: 81%;
+  display: flex;
+  justify-content: space-between;
+}
+.con_but{
+  color: rgb(61, 239, 239);
+  border: 1px solid aqua;
+  width: 165px;
+  height: 47px;
+  background-color: #fff;
+  /* padding: 10px; */
+}
+.consult_card{
+  /* border: 1px solid black; */
+  width: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  color: rgb(38, 38, 38);
+  font-weight: 500;
+  cursor: pointer;
+}
+.consult_link{
+  text-decoration: none;
+  color: rgb(54, 235, 235);
+}
+.all_consult_card{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.in_all_consult_card{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.sec_page{
+  /* background-color: aqua; */
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.dent_img_txt{
+  /* border: 1px solid black;- */
+  width: 302px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.dent_a_text{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(35, 35, 35);
+  text-decoration: none;
+}
+.dent_b_text{
+  font-size: 15px;
+  /* font-weight: 500; */
+  color: rgb(35, 35, 35);
+  text-decoration: none;
+
+}
+.dent_txt_only{
+  display: flex;
+  flex-direction: column;
+}
+.all_dent_img_txt{
+  display: flex;
+  justify-content: space-around;
+}
+.carousel_head{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+     
+.coro_na{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 310px;
+}
+    
+.all_cor_vitamines{
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.all_left_cor_vitamines{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  /* background-color: aquamarine; */
+  height: 240px;
+}
+      
+.read_top{
+  font-size: 25px;
+  font-weight: 500;
+}
+.health_art{
+  font-size: 13px;
+}
+.health_art_butt{
+  width: 135px;
+  height: 49px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 4px;
+}
+.left_read_only{
+  display: flex;
+  flex-direction: column;
+}
+.cor_link{
+  text-decoration: none;
+  color: green;
+  font-weight: 500;
+  font-size: 13px;
+}
+.cor_link_second{
+  text-decoration: none;
+  color: rgb(23, 26, 23);
+  font-weight: 500;
+  font-size: 17px;
+
+}
+.cor_link_third{
+  text-decoration: none;
+  color: rgb(23, 26, 23);
+  /* font-weight: 500; */
+  font-size: 14px;
+
+}
+.in_all_cor_vitamines{
+  display: flex;
+  width: 62%;
+  justify-content: space-around;
+  /* background-color: #fff; */
+}
+.foot_column{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 14px;
+}
+.all_foot{
+  background-color: rgb(40,50,140);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 550px;
+  /* align-items: center; */
+}
+.link_foot{
+  text-decoration: none;
   color: white;
 }
+.link_foot:hover{
+  color: white;
+  text-decoration: underline;
+}
+.foot_link_only{
+  display: flex;
+  /* background-color: #c72020; */
+  height: 340px;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.foot_logo{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+}
+.link_foot_h{
+  color: white;
+  font-weight: 700;
+}
+.fixed_img{
+  /* background-color: rgb(157, 156, 104); */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  padding-right: 20px;
+  z-index: 2;
+  /* padding-bottom: 750px; */
+}
+.health_art_butt_last{
+  width: 115px;
+  height: 46px;
+  color: white;
+  /* background-color: rgb(0, 171, 251); */
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.dwnld_pract_right{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: space-around;
+  width: 470px;
+  height: 300px;
+}
+.dwnld_pract{
+  display: flex;
+  /* background-color: chartreuse; */
+  justify-content: center;
+  height: 70vh;
+}
+.in_dwnld_pract{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #fff; */
+  width: 65%;
+}
+.input_pract{
+  width: 300px;
+}
+.google_pract{
+  display: flex;
+  width: 320px;
+  justify-content: space-around;
+  /* background-color: #fff; */
+}
+.head_pract_upfoot{
+  font-size: 35px;
+  font-weight: 500;
+}
+.input_health_art_butt{
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+}
+/* ============================================================================================================================================ */
+.find_big_img{
+  position: absolute;
+  /* z-index: -10; */
+  width: 100%;
+  height: 140vh;
+}
+.find_txt_h{
+  position: relative;
+  color: white;
+  font-size: 38px;
+  height: 150px;
+  font-weight: bold;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* width: 100%; */
+}
+.find_txt_p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  /* background-color: #429056; */
+  display: flex;
+  justify-content: center;
+}
+.find_txt_input{
+  height: 50px;
+  width: 300px;
+}
+.find_txt_input_b{
+  height: 50px;
+  width: 500px;
 
-.App-link {
-  color: #61dafb;
+}
+.find_rel_img{
+  position: relative;
+  /* background-color: #774290; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 81vh;
+  align-items: center;
+}
+.find_bottomlnk{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  height: 46px;
+  font-size: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  text-align: center;
+  text-decoration: none;
+
+}
+.find_link{
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+.find_link:hover{
+  color: white;
+}
+.link_with_img{
+  width:25px;
+   height:25px;
+   color: rgb(253, 252, 250);
+   /* background-color: #fff; */
+}
+.link_with_img:hover{
+   transform: scale(1.2);
+    transition: 0.3s;
+}
+.find_top_line{
+  border: 1px solid gray;
+  height: 50px;
+}
+.all_bottom_links{
+  display: flex;
+  background-color: rgb(34, 25, 70);
+  width: 100%;
+  height: 93px;
+  justify-content: center;
+}
+.in_all_botttom_links{
+  display: flex;
+  justify-content: center;
+  width: 79%;
+  height: 93px;
+  /* background-color: #345cc9; */
+  justify-content: space-around;
+  align-items: center;
+}
+.find_h_inp_link{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  /* background-color: rgb(4, 255, 0); */
+  justify-content: space-around;
+}
+.all_link_rel_img{
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+.link_rel_img{
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+.find_read_button{
+  width: 120px;
+  height: 43px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 2px;
+}
+.left_Safety_l{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  /* background-color: #fff; */
+  height: 40vh;
+  justify-content: space-around;
+}
+.left_right_img_txt{
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+.in_left_right_img_txt{
+  display: flex;
+  /* background-color: blanchedalmond; */
+  width: 70%;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Safety_only{
+  color: gray;
+  font-size: 40px;
+}
+.top_pr{
+  font-size: 40px;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+}
+.let_tick{
+  color: gray;
+  font-size: 19px;
+}
+.bit_img_txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 115px;
+  height: 140px;
+  background-color: #fff;
+}
+.all_botom_safety_imgs{
+  display: flex;
+  /* background-color: chartreuse; */
+  justify-content: center;
+  height: 20vh;
+}
+.in_all_botom_safety_imgs{
+  display: flex;
+  justify-content: space-around;
+  width: 950px;
+}
+.find_me_re_but{
+  width: 240px;
+  height: 43px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 2px;
+
+}
+ .left_instant_part{
+  /* background-color: aqua; */
+  height: 60vh;
+  width: 500px;
+ }
+ .full_instant_part{
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+ }
+ .infull_instant_part{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(115, 0, 255); */
+  width: 90%;
+ } 
+.full_skip_the_part{
+  display: flex;
+  width: 100%;
+  /* background-color: aquamarine; */
+  justify-content: center;
+}
+.right_skip_part{
+  width: 538px;
+  height: 60vh;
+  /* background-color: #fff; */
+}
+.inn_full_skip_the_part{
+  /* background-color: blueviolet; */
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.book_an{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+.in_book_an{
+  /* background-color: #fff; */
+  width: 84%;
+}
+.full_slide{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+.in_full_slide{
+  width: 70%;
+}
+.more_art_but{
+  width: 150px;
+  height: 43px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 2px;
+}
+.full_medical_records{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.right_medical_rec{
+  width: 460px;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
+}
+.in_full_medical_rec{
+  /* background-color: aquamarine; */
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+}
+/* ===========================================================================================popup */
+.modal1 {
+  /* width: 500px; */
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.content{
+  /* height: px; */
+  /* background-color: aqua; */
+  /* font-size: 22px;
+  font-weight: 600; */
+}
+.popup-content{
+  /* background-color: brown; */
+}
+.places_set_aakan_ullath{
+  display: flex;
+  /* background-color: chartreuse; */
+  width: 700px;
+  justify-content: space-around;
+}
+.one_img_pl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.allswip_labtest{
+  display: flex;
+  justify-content: center;
+}
+.in_allswip_labtest{
+  width: 80%;
+}
+.all_blu_txt_call_number{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  position: relative;
+  left: 100px;
+  align-items: center;
+  text-align: center;
+}
+.iiim{
+  display: flex;
+  /* background-color: #fff; */
+  width: 320px;
+  justify-content: space-between;
+}
+
+
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #962424;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details {
+  color: rgb(7, 7, 7);
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-button {
+  text-decoration: none;
+  text-align: center;
+  -webkit-transform: translate(-50%, 125%);
+  -ms-transform: translate(-50%, 125%);
+  transform: translate(-50%, 125%);
+  width: 70%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #b0b0b0;
+  color: #1e2330;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-body {
+  color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: #292929;
+  -webkit-box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
+  box-shadow: 10px 5px 18px 0 rgba(255, 255, 255, 0.877);
+}
+
+.card:hover .card-button {
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  opacity: 1;
 }
