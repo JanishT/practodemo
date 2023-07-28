@@ -10,11 +10,12 @@ const Navbar = () => {
   return (
     <div>
     <div className="Navbar">
+      <Link to={"/"}>
       <img className="practo_logo"
         src="https://www.practo.com/nav/9.5.15/consumer/images/practo.svg"
         alt=""
       />
-
+</Link>
       <div className="Nav_Route_link">
         <Link className="find"  to={"/Finddoctor"}>Find doctors</Link>
         <Link className="find" to={"/video"}>Video Consult</Link>

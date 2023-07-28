@@ -7,7 +7,7 @@ import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Medicines from "./Components/Medicines";
 import Labtests from "./Components/Labtests";
-import Demo from "./Components/Demo";
+// import Demo from "./Components/Demo";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-      <Demo/>
+      
     </div>
   );
 }
